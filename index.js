@@ -47,9 +47,9 @@ const prices = document.querySelectorAll('.price');
 
 function randomColor() {
     
-    const r = Math.floor(Math.random() * 360);
-    const g = Math.floor(Math.random() * 360);
-    const b = Math.floor(Math.random() * 360);
+    const r = Math.floor(Math.random() * 255);
+    const g = Math.floor(Math.random() * 255);
+    const b = Math.floor(Math.random() * 255);
 
     const randColor = `rgb(${r}, ${g}, ${b})`
 
